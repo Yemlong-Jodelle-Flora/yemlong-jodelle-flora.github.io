@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial--scale=1.0">
+    <div class="container"></div>
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet"  type="text/css" href="style.css">
 </head>
@@ -11,9 +12,9 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#contact me">Contact Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -29,7 +30,7 @@
     <section id="about">
          <h1 class="headings">ABOUT ME</h1>
             <div id="pic">
-            <img src="images/edit hap.jpg" alt="">
+            <img src="images/happy edit.jpg" alt="">
             <div id="intro">
                 <h2>DOUANLA YEMLONG JODELLE FLORA</h2>
                 <p>I ma a student of COLTECH studying computer engineering, option, computer network and system maintenance at the univercity of bamenda, Cameroon. I am a NEXTERN study computer software,(web designing and graphics designing) at NEXINCH.  </p>
@@ -67,14 +68,52 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h1 class="headings">CONTACT ME</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your messege"></textarea>
-            <input type="submit" value="SEND" id="send">
-        </form>
+    <section class="contact">
+        <div class="content">
+        <h1>CONTACT ME</h1>
+        </div>
+        <div class="container" id="contact">
+            <div class="contactinfo">
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Mile 2, Bamenda, Cameroon</p>
+                        <p></p>
+                    </div>
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>douanlajodelleflora@gmail.com</p>
+                        <p></p>
+                    </div>
+                    <div class="icon"></div>
+                    <div class="text">
+                        <h3>phone</h3>
+                        <p>237-653-54-46-25<br>237-694-49-18-94</p>
+                        <p></p>
+                    </div>
+            </div>
+            <div class="contactform">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="requires"></textarea>
+                        <span>type your message</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 </html>
